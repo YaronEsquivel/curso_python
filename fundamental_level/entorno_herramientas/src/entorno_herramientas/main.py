@@ -2,4 +2,4 @@
 
 
 def mY_FfuncIoN(x, y):
-    print(" Hola mundo ")
+    print("   Hola mundo   ")
