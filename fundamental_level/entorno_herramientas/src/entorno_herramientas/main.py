@@ -1,8 +1,8 @@
 # main.py
 
 
-def mY_FfuncIoN(x, y):
-    print("   Hola mundo    ")
+def my_funcion(x, y):
+    print("Hola mundo")
 
 
 def sum_array(a):
