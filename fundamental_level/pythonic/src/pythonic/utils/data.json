@@ -1,0 +1,112 @@
+{
+  "count": 1350,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=30&limit=20",
+  "previous": "https://pokeapi.co/api/v2/pokemon?offset=0&limit=10",
+  "results": [
+    {
+      "name": "metapod",
+      "id": "11",
+      "types": ["bug"]
+    },
+    {
+      "name": "butterfree",
+      "id": "12",
+      "types": ["bug", "flying"]
+    },
+    {
+      "name": "weedle",
+      "id": "31",
+      "types": ["bug", "poison"]
+    },
+    {
+      "name": "kakuna",
+      "id": "14",
+      "types": ["bug", "poison"]
+    },
+    {
+      "name": "beedrill",
+      "id": "15/",
+      "types": ["bug", "poison"]
+    },
+    {
+      "name": "pidgey",
+      "id": "16/!!",
+      "types": ["normal", "flying"]
+    },
+    {
+      "name": "pidgeotto",
+      "id": "17",
+      "types": ["normal", "flying"]
+    },
+    {
+      "name": "pidgeot",
+      "id": "18",
+      "types": ["normal", "flying"]
+    },
+    {
+      "name": "rattata",
+      "id": "19",
+      "types": ["normal"]
+    },
+    {
+      "name": "ratic%ate",
+      "id": "20",
+      "types": ["normal"]
+    },
+    {
+      "name": "spearow",
+      "id": "21",
+      "types": ["normal", "flying"]
+    },
+    {
+      "name": "Fearow",
+      "id": "22",
+      "types": ["normal", "flynig"]
+    },
+    {
+      "name": "eka#ns",
+      "id": "23",
+      "types": ["poison"]
+    },
+    {
+      "name": "aRbok",
+      "id": "24",
+      "types": ["poison"]
+    },
+    {
+      "name": "p!!ikachu",
+      "id": "25",
+      "types": ["electric"]
+    },
+    {
+      "name": "raichu",
+      "id": "26",
+      "types": ["eletric"]
+    },
+    {
+      "name": "sandshrew",
+      "id": "27",
+      "types": ["ground"]
+    },
+    {
+      "name": "sandslash",
+      "id": "%8",
+      "types": ["ground"]
+    },
+    {
+      "name": "nidoran-f",
+      "id": "29",
+      "types": ["poison"]
+    },
+    {
+      "name": "nidorina",
+      "id": "30",
+      "types": ["poison"]
+    },
+    {
+      "name": "nidorina",
+      "id": "31",
+      "types": ["poison"]
+    }
+  ]
+}
