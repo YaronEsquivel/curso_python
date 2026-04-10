@@ -1,0 +1,32 @@
+[
+    {
+    "product": "Mouse",
+    "quantity": 3,
+    "unit_price": 25.99
+    },
+    {
+    "product": "Laptop",
+    "quantity": 5,
+    "unit_price": 399.10
+    },
+    {
+    "product": "Screen",
+    "quantity": 2,
+    "unit_price": 82.90
+    },
+    {
+    "product": "Keyboard",
+    "quantity": 10,
+    "unit_price": 12.99
+    },
+    {
+    "product": "Monitor",
+    "quantity": "dos",
+    "unit_price": 300
+    },
+    {
+    "product": "Desk",
+    "quantity": 1,
+    "unit_price": "12q"
+    }
+]
