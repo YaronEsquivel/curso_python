@@ -1,2 +1,4 @@
-GENDER_SWAP = {"male": "hombre", "female": "mujer"}
-LATIN_ALFABET = r"[^a-zA-Z\s]"
+import re
+
+GENDER_SWAP: dict[str, str] = {"male": "hombre", "female": "mujer"}
+LATIN_ALFABET: re.Pattern[str] = re.compile(r"[^a-zA-Z\s]")

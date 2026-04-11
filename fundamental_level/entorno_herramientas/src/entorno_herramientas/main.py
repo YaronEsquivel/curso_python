@@ -1,11 +1,11 @@
 # main.py
 
 
-def my_funcion(x, y):
+def my_funcion(x: int, y: int):
     print("Hola mundo")
 
 
-def sum_array(a):
+def sum_array(a: list[int]):
     total = sum(a)
     print(total)
 
