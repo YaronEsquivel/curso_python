@@ -1,0 +1,29 @@
+{
+    "metrics": {
+        "total_orders": 7.0,
+        "total_revenue": 2420.5,
+        "avg_order_value": 345.79
+    },
+    "by_status": {
+        "completed": 5,
+        "failed": 1,
+        "pending": 1
+    },
+    "top_users": [
+        {
+            "id_orden": 7,
+            "id_usuario": 106,
+            "cantidad": 900.0
+        },
+        {
+            "id_orden": 5,
+            "id_usuario": 104,
+            "cantidad": 700.0
+        },
+        {
+            "id_orden": 3,
+            "id_usuario": 103,
+            "cantidad": 300.0
+        }
+    ]
+}
