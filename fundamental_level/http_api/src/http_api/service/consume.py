@@ -1,35 +1,41 @@
 import logging
 import time
+from pathlib import Path
+from typing import Any
 
 import httpx
 
+from ..classes.DogResponse import DogResponse
 from ..utils.constants import PATHS
 
 logger = logging.getLogger(__name__)
 
 
-async def consume(PATH):
-    path = "Path erroneos"
+async def consume(PATH: str):
+    path: str = "Path erroneos"
     for i in range(3):
         try:
             if i == 2:
                 path = PATH
             async with httpx.AsyncClient() as client:
-                response = await client.get(path, timeout=3.0)
-                logger.info(f"response: {response.json()}")
-                if response.json():
-                    await get_image(response.json()["message"])
+                response: Any = await client.get(path, timeout=3.0)
+                data: DogResponse = response.json()
+                logger.info(f"response: {data}")
+                if data:
+                    await get_image(data["message"])
                     break
         except Exception as e:
             handle_exception(e, i)
 
 
-async def get_image(uri):
+async def get_image(uri: str):
     OUTPUT_PATH = PATHS.get("OUTPUT_PATH")
-    OUTPUT_PATH.mkdir(exist_ok=True)
-    dog_image_path = OUTPUT_PATH / "dog_image.jpg"
+    dog_image_path = Path(__file__).parent
+    if OUTPUT_PATH:
+        OUTPUT_PATH.mkdir(exist_ok=True)
+        dog_image_path = OUTPUT_PATH / "dog_image.jpg"
     async with httpx.AsyncClient(timeout=5.0) as client:
-        url = ""
+        url: str = ""
         for i in range(3):
             try:
                 if i == 2:
